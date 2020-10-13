@@ -13,6 +13,26 @@ header,
 	/* 1366x768	16:9*/
 	margin:auto;
 }
+
+.logo {
+	padding: 5px 0px;
+	flex-basis: 85%;
+	position:relative;
+   }
+   .logo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+   }
+
+   .loginLinks {
+	flex-basis: 15%;
+   }
+   .search {
+	padding: 5px 0;
+	flex-basis: 40%;
+   }
+
 .burgerMenu, .mobH1{
 	display:none;
 }
@@ -37,7 +57,13 @@ header nav ul li h1{
 .mainNav {
 	padding: 8px 0;
 	height: auto;
+	display:block;
 }
+
+header {
+	justify-content: flex-end;
+	padding: 0 0 0 5px;
+   }
 
 .mainNav .row ul {
 	display: flex;
