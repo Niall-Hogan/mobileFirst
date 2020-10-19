@@ -184,3 +184,20 @@ body {
    .footerLinks li a:hover {
     text-decoration: underline;
    }
+
+   /*Form Styles*/
+
+   label{
+       display: block;
+   }
+
+   input[type = text], input[type = email], textarea
+   {
+       width:100%;
+       padding: 15px 10px;
+      
+   }
+
+   form > div{
+       margin-bottom:20px;
+   }
